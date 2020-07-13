@@ -9,7 +9,7 @@
 
 a {
   color: #444a50;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
@@ -94,4 +94,21 @@ ul {
 table {
   border-collapse: separate;
   border-spacing: 0px 15px;
+}
+
+.list-group-item:hover {
+  background-color: inherit;
+  border-color: #CCCCCC;
+}
+
+html {
+  scroll-padding-top: 70px;
+}
+
+body {
+  padding-top: 70px;
+}
+
+.btn-link-orange {
+  color: #EE7700;
 }

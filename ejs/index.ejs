@@ -3,30 +3,207 @@
 <body>
   <%- include('common/navbar.ejs') %>
 
-  <div class="container mt-5">
-    <div class="row">
-      <div class="jumbotron pl-5 trustless-color">
-        <h1 class="display-3 pl-0">トラストレスサービス株式会社</h1>
-        <h2>Trustless Services K.K.</h2>
-        <p class="lead">KISHIN KATO · 050-5360-5747 · KISHIN@TRUSTLESS-SERVICES.COM</p>
-        <hr class="my-4">
-        <p>ビットコインの特徴である「トラストレス」とは、自分の資産を他人に「トラスト(=信頼、信託)」せずとも保有や取引が行える構造のことです。<br>
-          当社は可能な限り第三者による検証が可能なトラストレスなソリューションを提供することを目標に定め、 ビットコインと関連技術を通して社会の役に立つ会社を目指します。</p>
+  <div class="container">
+    <div class="row trustless-color-light">
+      <div class="col-sm-12 mt-5 mb-5">
+        <h1 id="2100" class="text-center">2100万枚</h1>
+        <p>
+          ビットコインは2140年に総発行量が2100万枚に達し、新規発行が終了します。この事実は、ビットコインを使う様々な人を結びつける数少ない共通意識の1つです。
+        </p>
+        <p>
+          2100.fyiは、ビットコインについてあまりよく知らないという人に、「ビットコインがなぜ面白いか」をわかりやすく紹介するために生まれました。
+        </p>
+        <p>
+          価格や値動き、投資機会などについての話はほとんどしませんので、ぜひトレードではなくビットコインそのものの価値を考えるきっかけにしてみてください。
+        </p>
       </div>
     </div>
+  </div>
 
+  <div class="container">
     <div class="row">
-      <div class="col-sm-4">
-        <h1 class="mb-3">サービス一覧</h1>
-        <p>弊社が関わるサービスについては、<a href="services.html">サービス一覧のページ</a>へどうぞ。</p>
+      <div class="col-sm-12 mt-5 mb-5">
+        <h1 id="bitcoin" class="text-center">ビットコインがピンとくる5つの質問</h1>
+        <p>以下の5つの主張に1つでも同意できる方は、ビットコインがどのように革新的かイメージしやすいかもしれません。心理テストだと思って、同意できる文章をクリックしてみてください。</p>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link btn-link-orange" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  競争がなければ、消費者にとって本当に良いものはできない。
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse trustless-color-light" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                一般的には、独占された市場では競争原理が働かないため、製品やサービスの質が向上されにくいと言われます。
+                ビットコインが世界中で選択肢として存在することによって、既存の法定通貨にも競争という圧力がかかり、多くの人にとって有利に働きます。
+              </div>
+              <div class="card-body">
+                そして、通貨というものは国単位で独占されてきた市場です。
+              </div>
+              <div class="card-body">
+                ビットコインが世界中で選択肢として存在することによって、既存の法定通貨にも競争という圧力がかかり、多くの人にとって有利に働きます。
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed btn-link-orange" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  何にも裏付けがない通貨は、あくまで実験だ。
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse trustless-color-light" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                ビットコインには特に裏付けはありません。需要と供給によって価格が決まります。強いて言えば、最終的な発行量が決まっているビットコイン自体が裏付けです。
+              </div>
+              <div class="card-body">
+                しかし、法定通貨も実は裏付けはないのです。日本円や米ドル、ユーロにしろ、単純に需要と供給で価格が決まっています。
+              </div>
+              <div class="card-body">
+                そして、「完全に裏付けのない通貨制度」というもの自体が、まだ半世紀程度の歴史しかない実験なのです。
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed btn-link-orange" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  金融機関や政府は、信用を逆手にとって不正を働くことがある。
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse trustless-color-light" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                金融機関のスキャンダルや、政治家による着服など、信用されている立場の人や会社がその立場を使って不正を働くケースは大変多いです。
+              </div>
+              <div class="card-body">
+                ビットコインは、そのような第三者を信用することなく使うことができます。
+              </div>
+              <div class="card-body">
+                また、ブロックチェーンは誰でも記録を見ることができるので、政府などが使用すれば、透明性の高い政治が実現できるかもしれません。
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed btn-link-orange" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  自由は大切だ。規制緩和はイノベーションを生み出す。
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse trustless-color-light" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                ビットコインは「自由なお金」です。管理者がいない上に、他者を1人も信用せずに誰でも使えるため、用途が完全に自由なのです。
+                これが加盟店登録が必要な電子マネー・クレジットカードや、海外に自由に送れない法定通貨と一番異なるところです。
+              </div>
+              <div class="card-body">
+                規制の緩和が新しいビジネスや価値を生み出すように、ビットコインをお金に関する規制緩和だと捉えると、社会を大きく変える可能性があります。
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed btn-link-orange" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  お金を政治の道具にするのはよくない。自由にお金を使うことは基本的人権だ。
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFive" class="collapse trustless-color-light" aria-labelledby="headingFive" data-parent="#accordion">
+              <div class="card-body">
+                法定通貨は発行・管理する国によって「武器」として使われることがあります。世界で最も重要な通貨である米ドルなどはこの最たる例です。
+              </div>
+              <div class="card-body">
+                例えば、アメリカに経済制裁を受けているイランでは一般国民も世界とつながるクレジットカードや銀行送金は使えません。市民への経済的ダメージは多大です。
+                他にも、中国などで反体制派が政府によって銀行口座や電子マネーへのアクセスを遮断される懸念があるなど、「お金へのアクセス」が政治の道具に使われています。
+              </div>
+              <div class="card-body">
+                ビットコインは誰でも平等に自由に使うことのできる、政府の言いなりにならない通貨です。
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-4">
-        <h1 class="mb-3"><a href="https://btclog.info" target="_blank">BTCLog.info</a></h1>
-        <p><a href="https://btclog.info" target="_blank">BTCLog</a>はクラウドソースのビットコイン関連ニュースサイトです。チャートに重ねたり、タイムライン形式で閲覧できます。</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row trustless-color">
+      <div class="col-sm-12 mt-5 mb-5">
+        <h1 id="articles" class="text-center">オススメ記事</h1>
+        <p>
+          ビットコインについて知りたい方にオススメの記事や動画の一覧です。
+        </p>
+        <div class="list-group">
+          <a href="https://note.com/btc_dakara/n/ndfeca2c1c3e4" class="list-group-item list-group-item-action flex-column align-items-start" target="_blank">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">初心者向け：ビットコインとは (Bitcoin Explained 日本語訳)</h5>
+              <small>イントロダクション</small>
+            </div>
+            <p class="mb-1">ビットコインがどういうものか、どういう性質があるか、かわいいイラストつきでざっくりと簡単に解説しています。</p>
+            <small>初めての方向けです。</small>
+          </a>
+          <%#
+          <a href="https://jochen-hoenicke.de/queue/#0,6m" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">業界レポート</h5>
+              <small>業界概況</small>
+            </div>
+            <p class="mb-1">プレゼンテーションのスライドです</p>
+            <small>トラストレス・サービス社</small>
+          </a>
+          <a href="https://1ml.com/statistics" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">マイニング教材</h5>
+              <small>マイニングについて</small>
+            </div>
+            <p class="mb-1">マイニング　マイニング　マイニング</p>
+            <small>マイニング　マイニング</small>
+          </a>
+          %>
+        </div>
       </div>
-      <div class="col-sm-4">
-        <h1 class="mb-3">ソーシャル</h1>
-        <p>ツイッター: <a href="https://twitter.com/trustless_inc">@trustless_inc</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row trustless-color-light">
+      <div class="col-sm-12 mt-5 mb-5">
+        <h1 id="data" class="text-center">データを読み解く</h1>
+        <p>
+          以下のサイトを使って、現在のビットコインについて様々なデータを手軽に確認することができます。
+        </p>
+        <div class="list-group">
+          <a href="https://bitcoin.clarkmoody.com/dashboard/" class="list-group-item list-group-item-action flex-column align-items-start" target="_blank">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Clark Moody Bitcoin</h5>
+              <small>ブロックチェーンに関するデータ</small>
+            </div>
+            <p class="mb-1">ビットコイン・ブロックチェーンについて、現在の状況や将来の予測など、様々なデータを1箇所にまとめてくれています。</p>
+            <small>シンプルな画面にたくさん情報が詰まってます。</small>
+          </a>
+          <a href="https://jochen-hoenicke.de/queue/#0,6m" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Johoe's Bitcoin Mempool Statistics</h5>
+              <small>ビットコイン送金需要のデータ</small>
+            </div>
+            <p class="mb-1">時系列でビットコインの未承認取引の履歴を見ることができます。送金需要の推移や手数料別の内訳が確認できます。</p>
+            <small>ビットコインの場合、一定時間に処理できるデータ量(共有)はおおむね一定なので、需要がわかりやすく表れます。</small>
+          </a>
+          <a href="https://1ml.com/statistics" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">1ML</h5>
+              <small>ライトニングネットワークのデータ</small>
+            </div>
+            <p class="mb-1">ビットコイン上で動作するライトニングネットワークに関して、現在の利用状況が確認できます。</p>
+            <small>ライトニングネットワークは、支払いの当事者同士のツケ帳による支払手段です。</small>
+          </a>
+        </div>
       </div>
     </div>
   </div>
